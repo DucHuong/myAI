@@ -324,7 +324,7 @@ def saveNeural(neu, f):
     pass
 def saveNet(net, i, directory):
     filename = cf.predictNameNet + str(i) + cf.extention 
-    path = os.path.join(os.getcwd(), directory + '\\' + filename)
+    path = os.path.join(directory,  filename)
 
     f = open(path, 'w')
     number = str(net.numberNodeH1) + ', ' + str(net.numberNodeH2) + ', ' + str(net.numberNodeH3) + ', ' + str(net.numberNodeOutput) + '\n'
