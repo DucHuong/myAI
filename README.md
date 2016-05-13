@@ -1,0 +1,2 @@
+# myAI
+Lam reversi
